@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#ACB3AB">
+
+    <ImageView
+        android:id="@+id/recimg"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@mipmap/profile" />
+    <TextView
+        android:id="@+id/sp11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     "/>
+
+    <TextView
+        android:id="@+id/rectxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Full Names"
+        android:fontFamily="casual"
+        android:textColor="#8B0000"/>
+    <TextView
+        android:id="@+id/sp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       "/>
+    <TextView
+        android:id="@+id/recpos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Pos"
+        android:fontFamily="cursive"
+        android:textColor="#E75480"/>
+    <TextView
+        android:id="@+id/sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       "/>
+    <TextView
+        android:id="@+id/reccon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Con"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FF6347"/>
+
+</LinearLayout>
